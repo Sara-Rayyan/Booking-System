@@ -1,0 +1,82 @@
+﻿
+> frontend@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteE 
+   xception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> Build error occurred
+Error: Turbopack build failed with 2 errors:
+./src/app/dashboard/provider/page.tsx:8:1
+Module not found: Can't resolve 'socket.io-client'
+  [90m 6 |[0m [36mimport[0m { [33mButton[0m } [36mfrom[0m 
+[32m'../../../components/ui/Button'[0m;
+  [90m 7 |[0m [36mimport[0m { fetchAPI } [36mfrom[0m 
+[32m'../../../utils/api'[0m;
+[31m[1m>[0m [90m 8 |[0m [36mimport[0m io [36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m
+  [90m10 |[0m [36mexport[0m [36mdefault[0m 
+[36mfunction[0m [33mProviderDashboard[0m() {
+  [90m11 |[0m   [36mconst[0m { user } = useAuth();
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provider/page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/provider/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provider/page.tsx [Client Component SSR]
+    ./src/app/dashboard/provider/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+./src/app/dashboard/user/page.tsx:7:1
+Module not found: Can't resolve 'socket.io-client'
+  [90m 5 |[0m [36mimport[0m { [33mCard[0m } [36mfrom[0m 
+[32m'../../../components/ui/Card'[0m;
+  [90m 6 |[0m [36mimport[0m { fetchAPI } [36mfrom[0m 
+[32m'../../../utils/api'[0m;
+[31m[1m>[0m [90m 7 |[0m [36mimport[0m io [36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m   |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 8 |[0m
+  [90m 9 |[0m [36mexport[0m [36mdefault[0m 
+[36mfunction[0m [33mUserDashboard[0m() {
+  [90m10 |[0m   [36mconst[0m { user } = useAuth();
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/page.tsx [Client Component Browser]
+    ./src/app/dashboard/user/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/page.tsx [Client Component SSR]
+    ./src/app/dashboard/user/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (./src/app/dashboard/provider/page.tsx:8:1)
+    at <unknown> 
+(https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (./src/app/dashboard/user/page.tsx:7:1)
+    at <unknown> 
+(https://nextjs.org/docs/messages/module-not-found)

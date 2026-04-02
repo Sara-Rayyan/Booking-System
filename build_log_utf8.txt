@@ -1,0 +1,1645 @@
+﻿
+> frontend@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.2.2 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (:String  
+  ) [], RemoteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+> Build error occurred
+Error: Turbopack build 
+failed with 27 errors:
+./src/app/auth/login/page.tsx
+:9:1
+Module not found: Can't 
+resolve 
+'../../components/Navigation'
+  [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+[31m[1m>[0m [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mLogin[0m() {
+  [90m12 |[0m   
+[36mconst[0m [email, 
+setEmail] = 
+useState([32m''[0m);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:9:1
+Module not found: Can't 
+resolve 
+'../../components/Navigation'
+  [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+[31m[1m>[0m [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mRegister[0m() {
+  [90m12 |[0m   
+[36mconst[0m [name, 
+setName] = 
+useState([32m''[0m);
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/admin/pag
+e.tsx:4:1
+Module not found: Can't 
+resolve 
+'../../components/Navigation'
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+[31m[1m>[0m [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m7 |[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:4:1
+Module not found: Can't 
+resolve 
+'../../components/Navigation'
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+[31m[1m>[0m [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/user/page
+.tsx:4:1
+Module not found: Can't 
+resolve 
+'../../components/Navigation'
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+[31m[1m>[0m [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m7 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/login/page.tsx
+:4:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Button'
+  [90m2 |[0m 
+[36mimport[0m { useState } 
+[36mfrom[0m 
+[32m'react'[0m;
+  [90m3 |[0m 
+[36mimport[0m { useRouter 
+} [36mfrom[0m 
+[32m'next/navigation'[0m;
+[31m[1m>[0m [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:4:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Button'
+  [90m2 |[0m 
+[36mimport[0m { useState } 
+[36mfrom[0m 
+[32m'react'[0m;
+  [90m3 |[0m 
+[36mimport[0m { useRouter 
+} [36mfrom[0m 
+[32m'next/navigation'[0m;
+[31m[1m>[0m [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:6:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Button'
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+[31m[1m>[0m [90m6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m9 |[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/login/page.tsx
+:6:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Card'
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+[31m[1m>[0m [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:6:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Card'
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+[31m[1m>[0m [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/admin/pag
+e.tsx:5:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Card'
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m7 |[0m
+  [90m8 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mAdminDashboard[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:5:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Card'
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/user/page
+.tsx:5:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Card'
+  [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m7 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m8 |[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/login/page.tsx
+:5:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Input'
+  [90m3 |[0m 
+[36mimport[0m { useRouter 
+} [36mfrom[0m 
+[32m'next/navigation'[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:5:1
+Module not found: Can't 
+resolve 
+'../../components/ui/Input'
+  [90m3 |[0m 
+[36mimport[0m { useRouter 
+} [36mfrom[0m 
+[32m'next/navigation'[0m;
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+[31m[1m>[0m [90m5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/login/page.tsx
+:8:1
+Module not found: Can't 
+resolve 
+'../../context/AuthContext'
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+[31m[1m>[0m [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mLogin[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:8:1
+Module not found: Can't 
+resolve 
+'../../context/AuthContext'
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+[31m[1m>[0m [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m10 |[0m
+  [90m11 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mRegister[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/admin/pag
+e.tsx:3:1
+Module not found: Can't 
+resolve 
+'../../context/AuthContext'
+  [90m1 |[0m [32m'use 
+client'[0m;
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:3:1
+Module not found: Can't 
+resolve 
+'../../context/AuthContext'
+  [90m1 |[0m [32m'use 
+client'[0m;
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/user/page
+.tsx:3:1
+Module not found: Can't 
+resolve 
+'../../context/AuthContext'
+  [90m1 |[0m [32m'use 
+client'[0m;
+  [90m2 |[0m 
+[36mimport[0m { useEffect, 
+useState } [36mfrom[0m 
+[32m'react'[0m;
+[31m[1m>[0m [90m3 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/login/page.tsx
+:7:1
+Module not found: Can't 
+resolve '../../utils/api'
+  [90m 5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+[31m[1m>[0m [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m10 |[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/login/page
+.tsx [Client Component 
+Browser]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/login/page
+.tsx [Client Component SSR]
+    ./src/app/auth/login/page
+.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/auth/register/page.
+tsx:7:1
+Module not found: Can't 
+resolve '../../utils/api'
+  [90m 5 |[0m 
+[36mimport[0m { 
+[33mInput[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Input'[0m;
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+[31m[1m>[0m [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m 8 |[0m 
+[36mimport[0m { useAuth } 
+[36mfrom[0m [32m'../../con
+text/AuthContext'[0m;
+  [90m 9 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m10 |[0m
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+Browser]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/auth/register/p
+age.tsx [Client Component 
+SSR]
+    ./src/app/auth/register/p
+age.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/admin/pag
+e.tsx:6:1
+Module not found: Can't 
+resolve '../../utils/api'
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+[31m[1m>[0m [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^[0m
+  [90m7 |[0m
+  [90m8 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mAdminDashboard[0m() {
+  [90m9 |[0m   
+[36mconst[0m { user } = 
+useAuth();
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/admin
+/page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/admin
+/page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:7:1
+Module not found: Can't 
+resolve '../../utils/api'
+  [90m 5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+[31m[1m>[0m [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^[0m
+  [90m 8 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m 9 |[0m
+  [90m10 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mProviderDashboard[0m() 
+{
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/user/page
+.tsx:6:1
+Module not found: Can't 
+resolve '../../utils/api'
+  [90m4 |[0m 
+[36mimport[0m { 
+[33mNavigation[0m } 
+[36mfrom[0m [32m'../../com
+ponents/Navigation'[0m;
+  [90m5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+[31m[1m>[0m [90m6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+  [90m  |[0m [31m[1m^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^[0m
+  [90m7 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m8 |[0m
+  [90m9 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mUserDashboard[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/provider/
+page.tsx:8:1
+Module not found: Can't 
+resolve 'socket.io-client'
+  [90m 6 |[0m 
+[36mimport[0m { 
+[33mButton[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Button'[0m;
+  [90m 7 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+[31m[1m>[0m [90m 8 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^[0m
+  [90m 9 |[0m
+  [90m10 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mProviderDashboard[0m() 
+{
+  [90m11 |[0m   
+[36mconst[0m { user } = 
+useAuth();
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component Browser]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/provi
+der/page.tsx [Client 
+Component SSR]
+    ./src/app/dashboard/provi
+der/page.tsx [Server 
+Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+./src/app/dashboard/user/page
+.tsx:7:1
+Module not found: Can't 
+resolve 'socket.io-client'
+  [90m 5 |[0m 
+[36mimport[0m { 
+[33mCard[0m } 
+[36mfrom[0m [32m'../../com
+ponents/ui/Card'[0m;
+  [90m 6 |[0m 
+[36mimport[0m { fetchAPI } 
+[36mfrom[0m 
+[32m'../../utils/api'[0m;
+[31m[1m>[0m [90m 7 |[0m 
+[36mimport[0m io 
+[36mfrom[0m 
+[32m'socket.io-client'[0m;
+  [90m   |[0m [31m[1m^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^[0m
+  [90m 8 |[0m
+  [90m 9 |[0m 
+[36mexport[0m 
+[36mdefault[0m 
+[36mfunction[0m 
+[33mUserDashboard[0m() {
+  [90m10 |[0m   
+[36mconst[0m { user } = 
+useAuth();
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+Browser]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/dashboard/user/
+page.tsx [Client Component 
+SSR]
+    ./src/app/dashboard/user/
+page.tsx [Server Component]
+
+https://nextjs.org/docs/messa
+ges/module-not-found
+
+
+    at <unknown> (./src/app/a
+uth/login/page.tsx:9:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:9:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/admin/page.tsx:4:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:4:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/user/page.tsx:4:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/login/page.tsx:4:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:4:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:6:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/login/page.tsx:6:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:6:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/admin/page.tsx:5:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:5:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/user/page.tsx:5:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/login/page.tsx:5:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:5:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/login/page.tsx:8:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:8:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/admin/page.tsx:3:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:3:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/user/page.tsx:3:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/login/page.tsx:7:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/a
+uth/register/page.tsx:7:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/admin/page.tsx:6:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:7:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/user/page.tsx:6:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/provider/page.tsx:8:
+1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
+    at <unknown> (./src/app/d
+ashboard/user/page.tsx:7:1)
+    at <unknown> (https://nex
+tjs.org/docs/messages/module-
+not-found)
